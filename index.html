@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Umbrella</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="animate.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="container">
+					<div class="header_top">
+						<ul class="menu">
+							<li><a href="#">CONTACT</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#gallery">GALLERY</a></li>
+							<li><a href="#features">FEATURES</a></li>
+		 					<li><a href="#">HOME</a></li>   										
+						</ul>
+					<img src="img/Logo.png" alt="Umbrella" class="logo">
+					</div>
+					<div class="hand"><img src="img/hand1.png" alt="Umbrella" class="hand_img"></div>
+						<div class="titles">
+							<div class="animated fadeInDown titles_first">Introducing <span class="umbr">Umbrella</span></div>
+							<div class="animated fadeInDown titles_second">Made to modify and use anywhere</div>
+								<div class="animated bounceInLeft titles_third">
+									<i class="right"></i><div class="first_arrow">Sed ut perspiciatis unde omnis</div><br>
+									<i class="right"></i><div class="second_arrow">Iste natus error sit voluptatem accusantium</div><br>
+									<i class="right"></i><div class="third_arrow">doloremque laudantium</div>
+								</div>
+						</div>
+							
+								<a class="button" href="#">
+								<div class="download">
+									<img src="img/download.png" alt="Umbrella" class="download_logo">
+									<p>Download</p>
+								</div>
+						    	</a>
+						    	<a class="button_gallery" href="#">
+								<div class="view_gallery">
+									<img src="img/view.png" alt="Umbrella" class="view_logo">
+									<p>View Gallery</p>
+								</div>
+						    	</a>							
+				</div>
+			</div>	
+		
+
+					<div class="mySlides fade">
+						
+					</div>
+					
+					<div class="mySlides fade">
+						
+					</div>
+
+					<div class="mySlides fade">
+						
+					</div>
+					
+					<a class="prev" onclick="plusSlides(-1)"><div class="arrow-2">
+		    			<div class="arrow-2-top"></div><div class="arrow-2-bottom"></div></div></a>
+					<a class="next" onclick="plusSlides(1)"><div class="arrow-1">
+		    			<div class="arrow-1-top"></div><div class="arrow-1-bottom"></div></div></a>
+					
+			<br>
+			<div class="alldots">
+			<div style="text-align: center;">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			</div>
+			</div>
+		</div>	
+	</header>
+
+	<section class="amazing_features" id="features">
+		<div class="container2">
+			<div class="animated header_top2">
+				<h2><span>AMAZING FEATURES</span></h2>				
+			</div>
+				<div class="animated text2"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem <br>aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p></div>
+					<div class="alltexts"><img src="img/phone.png" alt="Umbrella" class="animated phone" id="phone">
+						<img src="img/second/settings_screen.png" alt="Umbrella" class="animated slideInUp settings_screen" id="settings">
+						<img src="img/second/timer_screen.png" alt="Umbrella" class="animated slideInUp timer_screen" id="timers">
+						<img src="img/second/music_screen.png" alt="Umbrella" class="animated slideInUp music_screen" id="musics">
+						<img src="img/second/support_screen.png" alt="Umbrella" class="animated slideInUp support_screen" id="supports">
+						<img src="img/second/msg_screen.png" alt="Umbrella" class="animated slideInUp msg_screen" id="msgs">
+						<img src="img/second/camera_screen.png" alt="Umbrella" class="animated slideInUp camera_screen" id="cameras">
+						<div align="left" class="animated left_text">
+							<div id = "click" onclick = "FuncImages()"><a class="button2"><img src="img/setting.png" alt="Umbrella" class="setting"><p class="text3">Accusan timar</p><p class="text4">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+						<div align="left" class="animated left_text2">
+							<div id = "click" onclick = "FuncImages1()"><a class="button2"><img src="img/timer.png" alt="Umbrella" class="setting"><p class="text3">Accusan timar</p><p class="text4">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+						<div align="left" class="animated left_text3">
+							<div id = "click" onclick = "FuncImages2()"><a class="button2"><img src="img/music.png" alt="Umbrella" class="setting"><p class="text3">Accusan timar</p><p class="text4">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+						<div align="left" class="animated right_text">
+							<div id = "click" onclick = "FuncImages3()"><a class="button2"><img src="img/support.png" alt="Umbrella" class="support"><p class="text5">Accusan timar</p><p class="text6">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+						<div align="left" class="animated right_text2">
+							<div id = "click" onclick = "FuncImages4()"><a class="button2"><img src="img/send.png" alt="Umbrella" class="support"><p class="text5">Accusan timar</p><p class="text6">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+						<div align="left" class="animated right_text3">
+							<div id = "click" onclick = "FuncImages5()"><a class="button2"><img src="img/camera.png" alt="Umbrella" class="support"><p class="text5">Accusan timar</p><p class="text6">Sed ut perspiciatis unde omnis iste natus<br> error sit voluptatem accusantium dolorem-<br>que laudantium</p></a></div>
+						</div>
+					</div>
+			
+		</div>
+	</section>
+
+	<section class="screenshot_gallery" id="gallery">
+		<div class="header_top3">
+			<div class=" animated article1"><span>SCREENSHOTS GALLERY</span></div><br>
+				<div class="animated article2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta.</div>
+			</div>
+				<div class="animated allscreens">
+					
+					<div class="screens">
+						
+						
+						
+						<div class="screen1">
+							<img src="img/screen.png" alt="Umbrella" class="screen">
+						</div>
+						
+						
+						<div class="screen1">
+							<img src="img/screen2.png" alt="Umbrella" class="screen">
+						</div>
+						
+						
+						<div class="screen1">
+							<img src="img/screen3.png" alt="Umbrella" class="screen">
+						</div>
+
+						<div class="screen1">
+							<img src="img/screen4.png" alt="Umbrella" class="screen">
+						</div>
+
+						<div class="screen1">
+							<img src="img/screen5.png" alt="Umbrella" class="screen">
+						</div>
+
+						<div class="screen1">
+							<img src="img/screen6.png" alt="Umbrella" class="screen">
+						</div>
+						
+						<div class="screen1">
+							<img src="img/screen7.png" alt="Umbrella" class="screen">
+						</div>
+						
+						<div class="screen1">
+							<img src="img/screen8.png" alt="Umbrella" class="screen">
+						</div>
+						
+						
+						
+						
+					</div>
+					
+				</div>
+	
+	</section>
+
+	<section class="animated show_reel" id="show_reel">
+		<div id = "click" onclick = "FuncImages6()">
+			<div class="triangle" id="triangle">
+			SHOW
+			<a class="button3">
+				<img src="img/iconplay.png" alt="Umbrella" class="iconplay" align="middle" id="iconplay">
+			</a>REEL
+		</div>
+			</div>
+<img src="img/logo2.png" alt="Umbrella" class="logo2" id="logo2">
+		
+
+		<iframe autoplay width="100%" height="700" src="https://www.youtube.com/embed/gIABvpsYi0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe> 
+	</section>
+
+<section class="people_behind">
+			<div class="animated header_top4">
+				<div class="article4"><span>PEOPLE BEHIND THE APP</span></div><br>
+					<div class="article5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+					</div>
+			</div>
+	<div class="animated allcontacts">
+		<div class="contacts1">
+			<div class="contact1">
+				<div class="textcontact1">sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br> magni dolores eos qui ratione<br> voluptatem.</div>
+				<div class="allsocials">
+				<div class="socials">
+					<div class="twitter">
+						<a href="" class="button4"><img src="img/Twitter.png" alt="Umbrella" class="twitter_logo"></a>
+					</div>
+					<div class="facebook">
+						<a href="" class="button5"><img src="img/FB.png" alt="Umbrella" class="fb_logo"></a>
+					</div>
+					<div class="google">
+						<a href="" class="button6"><img src="img/G+.png" alt="Umbrella" class="google_logo"></a>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="contact2">
+				<div class="textcontact1">sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br> magni dolores eos qui ratione<br> voluptatem.</div>
+				<div class="allsocials">
+				<div class="socials">
+					<div class="twitter">
+						<a href="" class="button4"><img src="img/Twitter.png" alt="Umbrella" class="twitter_logo"></a>
+					</div>
+					<div class="facebook">
+						<a href="" class="button5"><img src="img/FB.png" alt="Umbrella" class="fb_logo"></a>
+					</div>
+					<div class="google">
+						<a href="" class="button6"><img src="img/G+.png" alt="Umbrella" class="google_logo"></a>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="contact3">
+				<div class="textcontact1">sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br> magni dolores eos qui ratione<br> voluptatem.</div>
+				<div class="allsocials">
+				<div class="socials">
+					<div class="twitter">
+						<a href="" class="button4"><img src="img/Twitter.png" alt="Umbrella" class="twitter_logo"></a>
+					</div>
+					<div class="facebook">
+						<a href="" class="button5"><img src="img/FB.png" alt="Umbrella" class="fb_logo"></a>
+					</div>
+					<div class="google">
+						<a href="" class="button6"><img src="img/G+.png" alt="Umbrella" class="google_logo"></a>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="contact4">
+				<div class="textcontact1">sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br> magni dolores eos qui ratione<br> voluptatem.</div>
+				<div class="allsocials">
+				<div class="socials">
+					<div class="twitter">
+						<a href="" class="button4"><img src="img/Twitter.png" alt="Umbrella" class="twitter_logo"></a>
+					</div>
+					<div class="facebook">
+						<a href="" class="button5"><img src="img/FB.png" alt="Umbrella" class="fb_logo"></a>
+					</div>
+					<div class="google">
+						<a href="" class="button6"><img src="img/G+.png" alt="Umbrella" class="google_logo"></a>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="animated allnames">
+	<div class="names">
+		<div class="name1">
+			<span class="name12">John Doe</span><br><span class="speciality">Lead Designer</span>
+		</div>
+		<div class="name2">
+			<span class="name12">Amanda Fenrnicas</span><br><span class="speciality">Lead Developer</span>
+		</div>
+		<div class="name3">
+			<span class="name12">Hamburg Rodny</span><br><span class="speciality">Artist</span>
+		</div>
+		<div class="name4">
+			<span class="name12">Jessica Leonardo</span><br><span class="speciality">Photographer</span>
+		</div>
+	</div>
+	</div>
+</section>
+
+<section class="quot">
+	<div class="slider1">
+		<div class="slider_item">
+		<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+		</div>
+		<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+		</div>
+				
+				<div class="animated photo">
+					<div class=" animated name_comment">
+					Robert Leonaro<br><span class="name_comment1">CEO at CUBEDES</span>	
+					</div>
+				</div>
+		</div>
+				
+		<div class="slider_item">
+		<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+		</div>
+		<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+		</div>
+				
+				<div class="man2">
+					<div class=" animated name_comment">
+					Brad Pitt<br><span class="name_comment1">Actor</span>
+					</div>
+				</div>
+		</div>
+
+		<div class="slider_item">
+		<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+		</div>
+		<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+		</div>
+				
+				<div class="man3">
+					<div class=" animated name_comment">
+					Tom Cruise<br><span class="name_comment1">Actor</span>
+					</div>
+				</div>
+		</div>
+
+		<div class="slider_item">
+		<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+		</div>
+		<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+		</div>
+				
+				<div class="man4">
+					<div class=" animated name_comment">
+					Bradley Cooper<br><span class="name_comment1">Actor</span>
+					</div>
+				</div>
+		</div>
+		
+
+
+			<!-- <div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+					</div>
+					<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+					</div>
+			
+				<div class="man2">
+					<div class=" animated name_comment">
+					Brad Pitt<br><span class="name_comment1">Actor</span>
+					</div>
+				</div>
+			
+			
+			
+			
+			<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+					</div>
+					<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+					</div>
+			
+				<div class="man3">
+					<div class=" animated name_comment">
+					Tom Cruise<br><span class="name_comment1">Actor</span>
+					</div>
+				</div>
+			
+			
+			
+			
+					<div class="animated quotes">
+			<img src="img/quotes.png" alt="Umbrella" class="quotes1">
+					</div>
+					<div class="animated commentary">
+			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos<br> qui ratione voluptatem sequi nesciunt.
+					</div>
+			
+				<div class="man4">
+					<div class=" animated name_comment">
+					Bradley Cooper<br><span class="name_comment1">Actor</span>
+					</div>
+				</div> -->
+			
+	</div>
+	
+</section>
+
+<section class="featured_in">
+	<div class="animated header_top5">
+		<div class="article6"><span>FEATURED IN</span></div>
+	</div>
+	<div class="animated logotips">
+		<div class="theverge">
+			<img src="img/theverge.png" alt="Umbrella" class="theverge_img">
+		</div>
+		<div class="mashable">
+			<img src="img/mashable.png" alt="Umbrella" class="mashable_img">
+		</div>
+		<div class="tnw">
+			<img src="img/tnw.png" alt="Umbrella" class="tnw_img">
+		</div>
+		<div class="behance">
+			<img src="img/behance.png" alt="Umbrella" class="behance_img">
+		</div>
+		<div class="dribbble">
+			<img src="img/dribbble.png" alt="Umbrella" class="dribbble_img">
+		</div>
+	</div>
+</section>
+
+<section class="get_in_touch">
+	<div class="animated header_top7">
+		<div class="article7"><span>GET IN TOUCH</span></div>
+		<div class="article8">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo<br> enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		</div>
+	</div>
+		<div class="input_phone_container">
+		<div class="input_phone">
+			<div class="animated input">
+				<div class="allinputs">
+					<div class="hello">
+					Say Hello!
+					</div>
+					<input type="text" id="name" name="name" placeholder="Name">
+					<input type="text" id="email" name="email" placeholder="Email">
+					<input type="text" id="message" name="message" placeholder="Message">
+					<div class="send_msg">
+						<a href=""><img src="img/sendmsg.png" alt="Umbrella" class="sendmsg_img"><span>Send message</span></a>
+					</div>
+				</div>
+			</div>
+			<div class="animated five_logos">
+				<img src="img/logos/behance2.png" alt="Umbrella" class="behance2"><br>
+				<img src="img/logos/twitter2.png" alt="Umbrella" class="twitter2"><br>
+				<img src="img/logos/dribbble2.png" alt="Umbrella" class="dribbble2"><br>
+				<img src="img/logos/forest2.png" alt="Umbrella" class="forest2"><br>
+				<img src="img/logos/facebook2.png" alt="Umbrella" class="facebook2"><br>
+				<img src="img/logos/google2.png" alt="Umbrella" class="google2">
+			</div>
+			<div class="animated phone5">
+				<img src="img/iphone5s.png" alt="Umbrella" class="iphone5s">
+				
+			</div>
+		</div>
+		</div>
+</section>
+
+<footer>
+	<div class="animated footer_container">	
+	<div class="footer_logo">
+		<img src="img/Logo.png" alt="Umbrella" class="footerlogo"><br>
+		<span>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+	</div>
+	<div class="subscribe">
+		<span>Subscribe</span><br>
+		<form><div class="subscribe_input"><input type="subscribe" id="subscribe_input" name="subscribe_input">	
+			<a href=""><input type="submit" value=""></a>
+		</div></form><br>
+		<p>eusmod tempor incididunt ut labore et<br> dolore magna aliqua.</p>
+	</div>
+	<div class="explore">
+		<span>Explore</span><br>
+		<div class="tab_explore">
+			<div class="left_tab">
+				Envato<br>Themecurver<br>Kreativeshowcase<br>Freebiescurve
+			</div>
+			<div class="right_tab">
+				Themeforest<br>Microsoft<br>Google<br>Yahoo
+			</div>
+		</div>
+	</div>
+	<div class="created">
+		<div class="created_first">
+			<span class="text_before">Created with</span><img src="img/heart.png" alt="Umbrella" class="heart"><span class="text_after">by <span class="with_line">themecurve,</span></span><br>
+			<span class="last_text">exclusive for creativeshowcase</span><br>
+			
+		</div>
+		<span class="developed">&#169 2014 Umbrella. All Rights Reserved.</span>
+	</div>
+	</div>
+</footer>
+	<script src="js/script.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/slick.min.js"></script>
+	
+</body>
+</html>
+
